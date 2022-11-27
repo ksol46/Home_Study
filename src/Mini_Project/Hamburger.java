@@ -1,61 +1,46 @@
 package Mini_Project;
 
-public class Hamburger {
+public class Hamburger { //이 클래스는 오직 햄버거만!! 데이터를 저장한다.
 
 	//필드
-//	public static String Cheeseburger;
-//	public static String Shirimpburger;
-//	public static String Veganburger;
-	
-	public String name; //주문자 이름
-	public int number; // 휴대폰번호 뒷자리 4개
-	public int burger; //버거
 
+	public String burgerName; // 햄버거 종류 이름
+	public int burgerPice; // 햄버거 가격
+	public boolean set; //세트 유무
+	
 	
 	//생성자
-	public Hamburger () {
-	
+	Hamburger () {
+		this.burgerName="불고기버거";
+		this.burgerPice=7000;
 	}
 	
-	public Hamburger(String name, int number) {
-		this.name = name;
-		this.number = number;
-		this.burger=burger;
-	}
-
-
-	public int calcPrice(int price) {
-		return price;
+	//메소드(기능)
+	
+	//세트적용 유무
+	void set (int addset) {
+		if (addset == 1) {
+		this.set = true;
+		} else if (addset == 2) {
+		this.set = false;
+		} else {
+		this.set = false;
+		}
+		
 	}
 	
-	public String OrderList() {
-		return name + (",")+ number +  "님은 " + burger + "을(를)주문하였습니다.";
+	//가격이 변동되는 메소드
+	int addPrice (boolean set) {
+		if (set == true) {
+			return burgerPice + 1000;
+		} else {
+			return burgerPice;
+		}
+		
 	}
+
+
 	
-	
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getNumber() {
-		return number;
-	}
-
-	public void setNumber(int number) {
-		this.number = number;
-	}
-
-	public int getBurger() {
-		return burger;
-	}
-
-	public void setBurger(int burger) {
-		this.burger = burger;
-	}
 	
 	
 }
