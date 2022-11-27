@@ -1,28 +1,22 @@
 package Mini_Project;
 
-public class CheeseBurger extends Hamburger {
-	//필드
-	
-	
-	//생성자
-	CheeseBurger () {
-		super();
-		this.burgerName="치즈버거";
-	}
+public class CheeseBurger extends Burger  {
+    public CheeseBurger(String id, int price) {
+        super(id, price);
+    }
 
-	@Override
-	int addPrice(boolean set) {
-		if (set == true) {
-			return burgerPice + 800;
-		} else {
-			return burgerPice;
-		}
-	}
+    @Override
+    public String getName() {
+        return "치즈버거";
+    }
 
-	
-	
-	
-	
-	
-	
+    @Override
+    public String taste() {
+        return "치즈맛";
+    }
+
 }
+	
+	
+	
+	
