@@ -5,22 +5,21 @@ public class ShrimpBurger extends Burger {
         super(burgername, burgerprice);
     }
 
-    @Override
-    public String getName() {
-        return "새우버거";
-    }
 
     
 	@Override
-	public int getPrice() {
+	public String getBurgername() {
+		// TODO Auto-generated method stub
+		return "새우버거";
+	}
+
+
+
+	@Override
+	public int getBurgerprice() {
+		// TODO Auto-generated method stub
 		return 7500;
 	}
 
-	@Override
-	public String explain() {
-		return "국내산 새우로 만든 패티가 들어간 수제버거 입니다.";
-	}
-
-   
 
 }

@@ -7,12 +7,12 @@ public class Coleslaw extends SideMenu {
 
 	@Override
 	public String getSidemenuname() {
-		return super.getSidemenuname();
+		return "코울슬로";
 	}
 
 	@Override
 	public int getSidemenuprice() {
-		return super.getSidemenuprice();
+		return 1000;
 	}
 	
 	

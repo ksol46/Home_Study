@@ -5,23 +5,22 @@ public class BulgogiBurger extends Burger {
         super(burgername, burgerprice);
     }
 
-   
 	@Override
-	public int getPrice() {
+	public String getBurgername() {
+		return "불고기버거";
+	}
+
+	@Override
+	public int getBurgerprice() {
 		return 7000;
 	}
 
 
-	@Override
-	public String getName() {
-		return "불고기버거";
-	}
 
 
-	@Override
-	public String explain() {
-		return "호주산 소고기를 구워 특제 소스를 입힌 수제 햄버거 입니다.";
+
+
+
 	}
 
     
-}
