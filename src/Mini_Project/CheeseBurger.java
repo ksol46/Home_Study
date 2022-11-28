@@ -1,8 +1,8 @@
 package Mini_Project;
 
 public class CheeseBurger extends Burger  {
-    public CheeseBurger(String id, int price) {
-        super(id, price);
+    public CheeseBurger(String burgername, int burgerprice) {
+        super(burgername, burgerprice);
     }
 
     @Override
@@ -10,10 +10,17 @@ public class CheeseBurger extends Burger  {
         return "치즈버거";
     }
 
-    @Override
-    public String taste() {
-        return "치즈맛";
-    }
+	@Override
+	public int getPrice() {
+		return 6000;
+	}
+
+	@Override
+	public String explain() {
+		return "불고기버거에 자연산 모짜렐라 치즈가 추가된 수제버거 입니다.";
+	}
+
+   
 
 }
 	
