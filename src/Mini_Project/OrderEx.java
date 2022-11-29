@@ -21,7 +21,7 @@ public class OrderEx {
      };
 
     public static void main(String[] args) {
-        System.out.println("환영합니다!\n 솔이네버거 입니다."
+        System.out.println("환영합니다!\n솔이네버거 입니다."
         				+ "\n원하시는 메뉴를 입력해주세요.");
         System.out.println("===========================================");
         System.out.println(" 1. 메뉴보기 | 2. 주문하기 | 3. 주문완료 | 4.종료하기 ");
@@ -181,13 +181,15 @@ public class OrderEx {
             System.out.println(i + 1 + ". " + burgers[i].getBurgername() + ": " + burgers[i].getBurgerprice() + "원");
         }
     }
-
+    
+    //사이드메뉴 불러오기
     private static void getSideMenu() {
     	for (int i = 0; i < sidemenus.length; i++) {
     		System.out.println( i+1 + ". " + sidemenus[i].getSidemenuname() + ": " + sidemenus[i].getSidemenuprice() + "원" );
     	}
     }
     
+    //주문내역 보여주기
     private static void showOrderList() {
         int bonum = scanner.nextInt() - 1; //배열에 저장하려고 -1을 해줌
         //int sinum = scanner.nextInt() - 1;
