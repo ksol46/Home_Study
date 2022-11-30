@@ -1,0 +1,24 @@
+
+
+------------------------------------------------------
+
+
+
+제네릭 연습문제 풀기
+
+집 가서
+백준 문제 5문제 풀고
+선생님 문제 1,2번문제 풀고
+
+public class Container<String, String>{
+	private Container container;
+
+	public Container get() {
+	return container;
+}
+
+public void set(Container container) {
+this.container = container;
+}
+
+}
