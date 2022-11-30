@@ -102,7 +102,7 @@ public class OrderEx {
     //주문내역 보여주기
     private static void showOrderList() {
     	int result=0;
-       for(Burger burger  : saveburgers) {  
+       for(Burger burger : saveburgers) {  
     	   result += burger.getBurgerprice();
     	   System.out.print(burger.getBurgername()+" ,");
        }
