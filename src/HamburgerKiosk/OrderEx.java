@@ -1,4 +1,4 @@
-package Mini_Project;
+package HamburgerKiosk;
 
 import java.util.ArrayList;
 import java.util.Scanner;

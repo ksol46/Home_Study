@@ -1,15 +1,14 @@
-package Mini_Project;
+package HamburgerKiosk;
 
-public class CheeseStick extends SideMenu {
+public class FrenchFries extends SideMenu {
 
-	public CheeseStick(String sidemenuname, int sidemenuprice) {
+	public FrenchFries(String sidemenuname, int sidemenuprice) {
 		super(sidemenuname, sidemenuprice);
-
 	}
 
 	@Override
 	public String getSidemenuname() {
-		return "치즈스틱";
+		return "감자튀김";
 	}
 
 	@Override
@@ -18,5 +17,5 @@ public class CheeseStick extends SideMenu {
 	}
 	
 	
-	
+
 }

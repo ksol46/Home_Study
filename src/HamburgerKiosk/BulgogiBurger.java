@@ -1,4 +1,4 @@
-package Mini_Project;
+package HamburgerKiosk;
 
 public class BulgogiBurger extends Burger {
     public BulgogiBurger(String burgername, int burgerprice) {

@@ -1,4 +1,4 @@
-package Mini_Project;
+package HamburgerKiosk;
 
 		public class Burger {
 	    private final String burgername;

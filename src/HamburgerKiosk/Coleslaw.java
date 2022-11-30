@@ -1,14 +1,13 @@
-package Mini_Project;
+package HamburgerKiosk;
 
-public class FrenchFries extends SideMenu {
-
-	public FrenchFries(String sidemenuname, int sidemenuprice) {
+public class Coleslaw extends SideMenu {
+	public Coleslaw(String sidemenuname, int sidemenuprice) {
 		super(sidemenuname, sidemenuprice);
 	}
 
 	@Override
 	public String getSidemenuname() {
-		return "감자튀김";
+		return "코울슬로";
 	}
 
 	@Override
@@ -17,5 +16,4 @@ public class FrenchFries extends SideMenu {
 	}
 	
 	
-
 }

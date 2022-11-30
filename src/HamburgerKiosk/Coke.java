@@ -1,4 +1,4 @@
-package Mini_Project;
+package HamburgerKiosk;
 
 public class Coke extends SideMenu {
 

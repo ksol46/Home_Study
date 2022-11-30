@@ -1,4 +1,4 @@
-package Mini_Project;
+package HamburgerKiosk;
 
 public class ShrimpBurger extends Burger {
     public ShrimpBurger(String burgername, int burgerprice) {
@@ -9,7 +9,6 @@ public class ShrimpBurger extends Burger {
     
 	@Override
 	public String getBurgername() {
-		// TODO Auto-generated method stub
 		return "새우버거";
 	}
 
@@ -17,7 +16,6 @@ public class ShrimpBurger extends Burger {
 
 	@Override
 	public int getBurgerprice() {
-		// TODO Auto-generated method stub
 		return 7500;
 	}
 

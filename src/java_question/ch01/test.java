@@ -1,6 +1,6 @@
-package java_question.ch09;
+package java_question.ch01;
 
-public class TestEx {
+public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

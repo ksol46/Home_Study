@@ -1,4 +1,4 @@
-package java_question.ch02;
+package java_question;
 
 public class TestEx {
 
