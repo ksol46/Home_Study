@@ -1,8 +1,13 @@
+package Practice;
 
 public class Container<T, M> {
 
 	private T Key;
 	private M Value;
+	
+	public void set (T Key, M Value) {
+		
+	}
 	
 	public T getKey() {
 		return Key;
