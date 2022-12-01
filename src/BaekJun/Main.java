@@ -1,10 +1,9 @@
 package BaekJun;
 
-public class Main<T> {
-	 
-	public T content;
-		
+public class Main {
 
-	
+	public static void main(String[] args) {
+		
+	}
 
 }
