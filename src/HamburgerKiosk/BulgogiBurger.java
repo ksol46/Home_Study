@@ -11,7 +11,7 @@ public class BulgogiBurger extends Burger {
 	}
 
 	@Override
-	public int getBurgerprice() {
+	public int getBurgerprice() { 
 		return 7000;
 	}
 
@@ -23,4 +23,4 @@ public class BulgogiBurger extends Burger {
 
 	}
 
-    
+     

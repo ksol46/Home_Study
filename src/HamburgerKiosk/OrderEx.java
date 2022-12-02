@@ -8,12 +8,12 @@ public class OrderEx {
     static Scanner scanner = new Scanner(System.in);
     
      static Burger[] burgers = new Burger[] {
-            new BulgogiBurger("불고기버거", 7000),
+            new BulgogiBurger("불고기버거", 7000), 
             new CheeseBurger("치즈버거", 6000),
             new ShrimpBurger("새우버거", 7500),
      };
      
-     static SideMenu[] sidemenus = new SideMenu[] {
+     static SideMenu[] sidemenus = new SideMenu[] { 
     		 new FrenchFries("감자튀김", 1000),
     		 new CheeseStick("치즈스틱", 1000),
     		 new Coleslaw("코울슬로", 1000),
@@ -50,6 +50,7 @@ public class OrderEx {
                 System.out.println("------------------------------------------");
                 System.out.println("주문을 원하시면 2번을 입력 해주세요.");
                 System.out.println("선택 -> ");
+               
             } else if (selectnum == 2) {
             	System.out.println("------------------------------------------");
             	System.out.println("주문하실 햄버거의 번호를 입력 해주세요.");
