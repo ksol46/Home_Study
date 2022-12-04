@@ -13,47 +13,52 @@ public class Student {
 		private ArrayList<Score> scoreList = new ArrayList<Score>();
 		//생성자 만들기
 		//학생 위에 필드 3가지 값을 받는 생성자 만들기
-		public Student(int studentId, String studentName, Subject majorSubject) {
+		public Student(int studentId,String studentName,Subject majorSubject) {
 			this.studentId = studentId;
 			this.studentName = studentName;
 			this.majorSubject = majorSubject;
 		}
+		
 		//과목점수를 더해주는 메소드 만들기
 		public void addSubjectScore(Score score) {
 			scoreList.add(score);
 		}
+		
 		//필드 3가지와 arraylist를 게터테서 해주기
+
 		public int getStudentId() {
 			return studentId;
 		}
+
 		public void setStudentId(int studentId) {
 			this.studentId = studentId;
 		}
+
 		public String getStudentName() {
 			return studentName;
 		}
+
 		public void setStudentName(String studentName) {
 			this.studentName = studentName;
 		}
+
 		public Subject getMajorSubject() {
 			return majorSubject;
 		}
+
 		public void setMajorSubject(Subject majorSubject) {
 			this.majorSubject = majorSubject;
 		}
+
 		public ArrayList<Score> getScoreList() {
 			return scoreList;
 		}
+
 		public void setScoreList(ArrayList<Score> scoreList) {
 			this.scoreList = scoreList;
 		}
-	
-	
-	
-	
-	
-	
-	
+		
+		//필드 3가지와 arraylist를 게터테서 해주기
 	
 	
 }

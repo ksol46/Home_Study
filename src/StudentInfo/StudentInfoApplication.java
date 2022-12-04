@@ -10,20 +10,20 @@ public class StudentInfoApplication {
 	GenerateGradeReport gradeReport = new GenerateGradeReport();
 	
 	public static void main(String[] args) {
+	
 		
 		StudentInfoApplication test = new StudentInfoApplication();
 		
-		test.creatSubject();
+		test.createSubject();
 		test.createStudent();
 		
 		String report = test.gradeReport.getReport();
 		System.out.println(report);
 	}
-
 	
-	public void creatSubject() {
-		korean = new Subject("국어", Define.KOREA);
-		math= new Subject("수학", Define.MATH);
+	public void createSubject() {
+		korean = new Subject("국어",Define.KOREA);
+		math = new Subject("수학",Define.MATH);
 		
 		goodSchool.addSubject(korean);
 		goodSchool.addSubject(math);
@@ -35,7 +35,7 @@ public class StudentInfoApplication {
 		Student student3 = new Student(171230, "이현욱", korean);
 		Student student4 = new Student(171255, "임지연", korean);
 		Student student5 = new Student(171590, "김재현", math );
-		Student student6 = new Student(171593, "김솔", korean);
+		Student student6 = new Student(171593, "김솔", korean );
 		
 		goodSchool.addStudent(student1);
 		goodSchool.addStudent(student2);
@@ -75,14 +75,14 @@ public class StudentInfoApplication {
 		
 		addScoreForStudent(student6, korean, 100);
 		addScoreForStudent(student6, math, 100);
-		
 	}
-
-
-	public void addScoreForStudent(Student student, Subject subject, int point) {
+	
+	public void addScoreForStudent(Student student,Subject subject,int point) {
+		
 		Score score = new Score(student.getStudentId(),subject,point);
 		student.addSubjectScore(score);
 	}
+	
 	
 	
 	
