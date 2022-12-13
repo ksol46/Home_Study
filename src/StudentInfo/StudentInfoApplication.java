@@ -37,6 +37,7 @@ public class StudentInfoApplication {
 		Student student5 = new Student(171590, "김재현", math );
 		Student student6 = new Student(171593, "김솔", korean );
 		
+		
 		goodSchool.addStudent(student1);
 		goodSchool.addStudent(student2);
 		goodSchool.addStudent(student3);

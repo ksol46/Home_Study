@@ -1,23 +1,25 @@
 package New_MiniProject;
 
-
-
 public class YOGIYO implements OrderPrice {
 
 	@Override
 	public String getPrice(int money) {
-String service;
-		
-		if (money >= 15000 && money < 20000 ) service = "탄산음료";
-		else if (money >= 20000 && money < 30000 ) service = "전 금액 서비스 + 감자튀김";
-		else if (money >= 30000 && money < 40000 ) service = "전 금액 서비스 + 치즈스틱";
-		else service = "전 금액 서비스 + 코울슬로";
-		
+		String service;
+		if (money >= 18000 && money <= 23000) service = "감자튀김";
+		else if (money > 23000 && money <= 28000) service = "코울슬로";
+		else if (money > 28000 && money <= 31000) service = "치즈스틱";
+		else service = "윙봉 3조각";
 		
 		return service;
 	}
 
 	
+
+	
 }
 
-//주문금액별 서비스가 다름. 이전 금액 서비스에 추가됨.
+
+
+/*
+BAEMIN, YOGIYO 각각 서비스 지급 주문금액이 다르다.
+*/
